@@ -9,6 +9,6 @@ public class L_Quit implements Listener {
 
     @EventHandler
     public static void onQuit(PlayerQuitEvent e) {
-        e.setQuitMessage(Config.getMessage("message.quit", e.getPlayer().getDisplayName()));
+        e.setQuitMessage(Config.getMessage("messages.quit", e.getPlayer().getDisplayName()));
     }
 }
