@@ -1,0 +1,4 @@
+de\cbcraft\video\lobbysystem\listener\L_Join.class
+de\cbcraft\video\lobbysystem\LobbySystem.class
+de\cbcraft\video\lobbysystem\listener\L_Quit.class
+de\cbcraft\video\lobbysystem\utils\Config.class

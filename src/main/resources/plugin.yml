@@ -1,0 +1,3 @@
+name: LobbySystem
+version: ${project.version}
+main: de.cbcraft.video.lobbysystem.LobbySystem
