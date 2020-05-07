@@ -1,4 +1,12 @@
-de\cbcraft\video\lobbysystem\listener\L_Join.class
+de\cbcraft\video\lobbysystem\listener\L_Build.class
 de\cbcraft\video\lobbysystem\LobbySystem.class
-de\cbcraft\video\lobbysystem\listener\L_Quit.class
 de\cbcraft\video\lobbysystem\utils\Config.class
+de\cbcraft\video\lobbysystem\Data.class
+de\cbcraft\video\lobbysystem\listener\L_Break.class
+de\cbcraft\video\lobbysystem\listener\L_InventoryClickEvent.class
+de\cbcraft\video\lobbysystem\listener\L_Join.class
+de\cbcraft\video\lobbysystem\listener\L_Damage.class
+de\cbcraft\video\lobbysystem\listener\L_Quit.class
+de\cbcraft\video\lobbysystem\commands\CMD_build.class
+de\cbcraft\video\lobbysystem\listener\L_Interact.class
+de\cbcraft\video\lobbysystem\utils\ItemBuilder.class

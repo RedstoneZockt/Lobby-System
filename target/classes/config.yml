@@ -1,4 +1,28 @@
 prefix: "&7[&eLobby&7]"
 messages:
+  no-perm: "%prefix% &cDu bist nicht berrechtigt dies zu tun!"
   join: "%prefix% &b[0] &7hat den Server betreten!"
   quit: "%prefix% &b[0] &7hat den Server verlassen!"
+  build:
+    syntax: "%prefix% Syntax: /build <Player>"
+    not-online: "%prefix% &cDer Spieler ist nicht online!"
+    self:
+      enable: "%prefix% Dein Buildmodus wurde &aaktiviert&7!"
+      disable: "%prefix% Dein Buildmodus wurde &cdeaktiviert&7!"
+    other:
+      enable: "%prefix% Dein Buildmodus von &b[0] &7wurde &aaktiviert&7!"
+      disable: "%prefix% Dein Buildmodus von &b[0] &7wurde &cdeaktiviert&7!"
+
+menu:
+  inventory:
+    name: "&aNavigator"
+    item:
+      1:
+        name: "&bItem 1"
+        material: "BLAZE_ROD"
+      2:
+        name: "&bItem 2"
+        material: "DIRT"
+      3:
+        name: "&bItem 3"
+        material: "STONE"
