@@ -1,6 +1,0 @@
-name: LobbySystem
-version: 1.0-SNAPSHOT
-main: de.cbcraft.video.lobbysystem.LobbySystem
-
-commands:
-  build:
