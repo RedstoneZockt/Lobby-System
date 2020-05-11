@@ -1,6 +1,7 @@
 package de.cbcraft.video.lobbysystem;
 
 import de.cbcraft.video.lobbysystem.commands.CMD_build;
+import de.cbcraft.video.lobbysystem.commands.CMD_setloc;
 import de.cbcraft.video.lobbysystem.listener.*;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -20,6 +21,7 @@ public final class LobbySystem extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new L_Interact(), this);
         Bukkit.getPluginManager().registerEvents(new L_InventoryClickEvent(), this);
         Bukkit.getPluginCommand("build").setExecutor(new CMD_build());
+        Bukkit.getPluginCommand("setloc").setExecutor(new CMD_setloc());
         // Plugin startup logic
 
     }

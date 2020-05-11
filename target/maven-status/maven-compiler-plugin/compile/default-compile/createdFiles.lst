@@ -10,3 +10,4 @@ de\cbcraft\video\lobbysystem\listener\L_Quit.class
 de\cbcraft\video\lobbysystem\commands\CMD_build.class
 de\cbcraft\video\lobbysystem\listener\L_Interact.class
 de\cbcraft\video\lobbysystem\utils\ItemBuilder.class
+de\cbcraft\video\lobbysystem\commands\CMD_setloc.class

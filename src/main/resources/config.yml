@@ -12,7 +12,13 @@ messages:
     other:
       enable: "%prefix% Dein Buildmodus von &b[0] &7wurde &aaktiviert&7!"
       disable: "%prefix% Dein Buildmodus von &b[0] &7wurde &cdeaktiviert&7!"
-
+  setloc:
+    error: "%prefix% Es ist ein Fehler aufgetreten: &c[0]"
+    success: "%prefix% Du hast die Location &b[0] &7gesetzt"
+    syntax: "%prefix% Syntax: /setloc <name>"
+  navigator:
+    teleport:
+      not-found: "%prefix% Die Location wurde nicht gefunden!"
 menu:
   inventory:
     name: "&aNavigator"
@@ -20,9 +26,12 @@ menu:
       1:
         name: "&bItem 1"
         material: "BLAZE_ROD"
+        location: "1"
       2:
         name: "&bItem 2"
         material: "DIRT"
+        location: "2"
       3:
         name: "&bItem 3"
         material: "STONE"
+        location: "3"
